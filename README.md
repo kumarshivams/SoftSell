@@ -79,3 +79,6 @@ Total: ~10 hours
 - Blog section with software licensing articles
 - More advanced animations and transitions
 - Pricing calculator for different license types
+
+## Time Spent
+- Min 1 hrs
