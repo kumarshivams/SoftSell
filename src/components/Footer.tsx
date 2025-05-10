@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             className="col-span-1 md:col-span-1"
           >
             <div className="flex items-center gap-2 text-white mb-4">
-              <File size={24} className="text-blue-400" />
+              <img src='https://tse4.mm.bing.net/th/id/OIP.c5-tDPObJvu-MlpT6ZM4EgHaGm?rs=1&pid=ImgDetMain' alt="SoftSell Logo" className="w-8 h-8" />
               <span className="text-xl font-bold">SoftSell</span>
             </div>
             <p className="text-slate-400 mb-6">
@@ -101,7 +101,7 @@ const Footer: React.FC = () => {
             <ul className="space-y-3">
               <li className="flex items-center gap-3">
                 <MapPin size={18} className="text-blue-400" />
-                <span className="text-slate-400">123 Tech Ave, San Francisco, CA 94107</span>
+                <span className="text-slate-400">Rohini Sector22, NewDelhi, Delhi</span>
               </li>
               <li className="flex items-center gap-3">
                 <Mail size={18} className="text-blue-400" />
@@ -112,7 +112,7 @@ const Footer: React.FC = () => {
               <li className="flex items-center gap-3">
                 <Phone size={18} className="text-blue-400" />
                 <a href="tel:+18005551234" className="text-slate-400 hover:text-blue-400 transition-colors">
-                  (800) 555-1234
+                  +91 70-1234-5678
                 </a>
               </li>
             </ul>

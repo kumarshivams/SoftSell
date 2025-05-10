@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect } from 'react';
 import { motion, AnimatePresence } from 'framer-motion';
 import { MessageSquare, X, Send, User, RefreshCcw } from 'lucide-react';
-import { generateResponse } from '../utils/gemini'; // Import your generateResponse function
+import { generateResponse } from '../utils/gemini'; 
 
-// Define message type
+
 interface Message {
   id: string;
   content: string;
@@ -11,9 +11,9 @@ interface Message {
   timestamp: Date;
 }
 
-// Mock responses for common questions
+
 const predefinedResponses: Record<string, string> = {
-  default: "Thank you for your question. A team member will get back to you within 24 hours.",
+  default: "Thank you for your question. A team member will get back to you within 1 Days.",
   greeting: "Hello! Welcome to SoftSell. How can I assist you today?",
   about: "SoftSell is the premier marketplace for buying and selling software licenses. We help organizations recoup value from unused software assets.",
   sell: "To sell your software license, simply fill out our contact form with details about your license. We'll provide a valuation within 24 hours and process payment within 3 business days of acceptance.",
@@ -34,40 +34,6 @@ const suggestedQuestions = [
 // Function to generate unique IDs
 const generateId = () => Math.random().toString(36).substring(2, 9);
 
-// Helper function to find best matching response
-// const findBestResponse = (question: string): string => {
-//   question = question.toLowerCase();
-  
-//   if (question.match(/hello|hi|hey|greetings/i)) {
-//     return predefinedResponses.greeting;
-//   }
-  
-//   if (question.match(/how.*(sell|work|process)/i)) {
-//     return predefinedResponses.process;
-//   }
-  
-//   if (question.match(/sell|upload|submit|license/i)) {
-//     return predefinedResponses.sell;
-//   }
-  
-//   if (question.match(/price|pricing|quote|value|worth|money|cost/i)) {
-//     return predefinedResponses.pricing;
-//   }
-  
-//   if (question.match(/pay|payment|get paid|transfer|paypal|bank/i)) {
-//     return predefinedResponses.payment;
-//   }
-  
-//   if (question.match(/about|who are you|what is|softsell/i)) {
-//     return predefinedResponses.about;
-//   }
-  
-//   if (question.match(/help|support|contact|phone|email/i)) {
-//     return predefinedResponses.support;
-//   }
-  
-//   return predefinedResponses.default;
-// };
 
 
 const findBestResponse = async (question: string): Promise<string> => {
@@ -156,14 +122,7 @@ const ChatWidget: React.FC = () => {
     setInputValue('');
     setIsTyping(true);
     
-    // Simulate response delay
-    // setTimeout(() => {
-    //   const responseMessage: Message = {
-    //     id: generateId(),
-    //     content: findBestResponse(userMessage.content),
-    //     role: 'assistant',
-    //     timestamp: new Date()
-    //   };
+
 
     setTimeout(async () => {
       const aiResponse = await findBestResponse(userMessage.content);

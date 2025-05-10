@@ -2,6 +2,9 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import { Menu, X, Moon, Sun, File } from 'lucide-react';
 
+
+// Adjust the path as necessary
+
 interface HeaderProps {
   darkMode: boolean;
   toggleDarkMode: () => void;
@@ -44,10 +47,15 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
           transition={{ duration: 0.5 }}
           className="flex items-center"
         >
-          <a href="#" className="flex items-center gap-2 text-blue-600 dark:text-blue-400">
+          {/* <a href="#" className="flex items-center gap-2 text-blue-600 dark:text-blue-400">
             <File size={32} className="stroke-current" />
             <span className="text-2xl font-bold">SoftSell</span>
-          </a>
+          </a> */}
+              <a href="https://tse4.mm.bing.net/th/id/OIP.c5-tDPObJvu-MlpT6ZM4EgHaGm?rs=1&pid=ImgDetMain" className="flex items-center gap-2 text-blue-600 dark:text-blue-400">
+                <img src='https://tse4.mm.bing.net/th/id/OIP.c5-tDPObJvu-MlpT6ZM4EgHaGm?rs=1&pid=ImgDetMain' alt="SoftSell Logo" className="w-8 h-8" />
+                <span className="text-2xl font-bold">SoftSell</span>
+              </a>
+
         </motion.div>
         
         {/* Desktop Navigation */}

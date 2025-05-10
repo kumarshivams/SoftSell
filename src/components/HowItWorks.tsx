@@ -21,7 +21,7 @@ const HowItWorks: React.FC = () => {
     {
       id: 3,
       title: 'Get Paid Quickly',
-      description: 'Accept our offer and receive payment within 72 hours via your preferred method - bank transfer, PayPal, or cryptocurrency.',
+      description: 'Accept our offer and receive payment within 48 hours via your preferred method - bank transfer, PayPal, or cryptocurrency.',
       icon: <DollarSign className="w-10 h-10 text-blue-600 dark:text-blue-400" />,
       delay: 0.5
     }
@@ -53,7 +53,7 @@ const HowItWorks: React.FC = () => {
         >
           <h2 className="section-title">How It Works</h2>
           <p className="section-subtitle">
-            Our streamlined process makes selling your software licenses simple, secure, and profitable
+          Easily sell your software licenses with a process that’s fast, secure, and built to maximize your profit.
           </p>
         </motion.div>
 
@@ -93,7 +93,7 @@ const HowItWorks: React.FC = () => {
           className="mt-16 text-center"
         >
           <a href="#contact" className="btn-primary inline-flex items-center gap-2">
-            Start Selling Now
+            Begin Selling – It's Fast and Easy
             <ArrowRight size={18} />
           </a>
         </motion.div>

@@ -1,7 +1,4 @@
-/**
- * This file contains functionality for connecting to the Gemini API.
- * NOTE: This includes both real and mock logic depending on API key availability.
- */
+
 
 import { GoogleGenerativeAI } from "@google/generative-ai";
 

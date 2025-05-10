@@ -64,7 +64,7 @@ const ContactForm: React.FC = () => {
         >
           <h2 className="section-title">Get a Quote</h2>
           <p className="section-subtitle">
-            Fill out the form below to receive a valuation for your software licenses
+          Complete the form below to get an instant valuation for your software licenses."
           </p>
         </motion.div>
 
@@ -83,7 +83,7 @@ const ContactForm: React.FC = () => {
                 </div>
                 <h3 className="text-2xl font-bold mb-2">Thank You!</h3>
                 <p className="text-slate-600 dark:text-slate-300 mb-6">
-                  Your message has been received. We'll get back to you within 24 hours with a valuation.
+                  Your message has been received. We'll get back to you within 1 days with a valuation.
                 </p>
                 <button
                   onClick={() => setIsSubmitted(false)}
