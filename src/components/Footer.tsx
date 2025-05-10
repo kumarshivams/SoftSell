@@ -17,7 +17,7 @@ const Footer: React.FC = () => {
             className="col-span-1 md:col-span-1"
           >
             <div className="flex items-center gap-2 text-white mb-4">
-              <img src='https://tse4.mm.bing.net/th/id/OIP.c5-tDPObJvu-MlpT6ZM4EgHaGm?rs=1&pid=ImgDetMain' alt="SoftSell Logo" className="w-8 h-8" />
+              <img src='https://png.pngtree.com/png-vector/20230527/ourmid/pngtree-s-logo-icon-vector-png-image_7111071.png' alt="SoftSell Logo" className="w-8 h-8" />
               <span className="text-xl font-bold">SoftSell</span>
             </div>
             <p className="text-slate-400 mb-6">

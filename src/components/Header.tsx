@@ -51,8 +51,8 @@ const Header: React.FC<HeaderProps> = ({ darkMode, toggleDarkMode }) => {
             <File size={32} className="stroke-current" />
             <span className="text-2xl font-bold">SoftSell</span>
           </a> */}
-              <a href="https://tse4.mm.bing.net/th/id/OIP.c5-tDPObJvu-MlpT6ZM4EgHaGm?rs=1&pid=ImgDetMain" className="flex items-center gap-2 text-blue-600 dark:text-blue-400">
-                <img src='https://tse4.mm.bing.net/th/id/OIP.c5-tDPObJvu-MlpT6ZM4EgHaGm?rs=1&pid=ImgDetMain' alt="SoftSell Logo" className="w-8 h-8" />
+              <a href="https://png.pngtree.com/png-vector/20230527/ourmid/pngtree-s-logo-icon-vector-png-image_7111071.png" className="flex items-center gap-2 text-blue-600 dark:text-blue-400">
+                <img src='https://png.pngtree.com/png-vector/20230527/ourmid/pngtree-s-logo-icon-vector-png-image_7111071.png' alt="SoftSell Logo" className="w-8 h-8" />
                 <span className="text-2xl font-bold">SoftSell</span>
               </a>
 
